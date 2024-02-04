@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
     title = 'study-project';
+
+    test() {
+        console.log('test');
+    }
 }
