@@ -12,6 +12,6 @@ export class AppComponent {
     title = 'study-project';
 
     test() {
-        console.log('test');
+        console.log('testik');
     }
 }
