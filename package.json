@@ -7,7 +7,6 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test",
-        "serve:ssr:study-project": "node dist/study-project/server/server.mjs",
         "prettier:fix": "prettier --write",
         "prettier:fix:all": "prettier --write .",
         "lint": "ng lint",
