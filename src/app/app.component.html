@@ -1,5 +1,7 @@
 <main class="main">
-    <app-header></app-header>
+    <app-header (menuClick)="onMenuClick()"></app-header>
+
+    <app-sidenav [isOpened]="isOpened" (isOpenedChange)="toggleNavOpened($event)"></app-sidenav>
 </main>
 
 <router-outlet />
